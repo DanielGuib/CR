@@ -1,0 +1,37 @@
+from,to,weight,relationship
+el profesor,Tokio,2,1
+el profesor,Berlin,3,1
+el profesor,Rio,1,1
+el profesor,Denver,1,1
+el profesor,Moskau,1,1
+el profesor,Oslo,1,1
+el profesor,Nairobi,1,1
+el profesor,Helsinki,1,1
+Tokio,el profesor,2,1
+Tokio,Rio,2,1
+Tokio,Nairobi,2,1
+Tokio,Berlin,1,1
+Tokio,Denver,1,1
+Tokio,Moskau,1,1
+Berlin,el profesor,3,1
+Berlin,Tokio,1,1
+Berlin,Nairobi,1,1
+Denver,Moskau,3,1
+Denver,Rio,2,1
+Denver,Tokio,1,1
+Denver,Nairobi,1,1
+Moskau,Denver,3,1
+Moskau,Nairobi,1,1
+Moskau,Tokio,1,1
+Helsinki,Nairobi,2,1
+Helsinki,Oslo,3,1
+Oslo,Nairobi,1,1
+Oslo,Helsinki,3,1
+Nairobi,Helsinki,2,1
+Nairobi,Tokio,2,1
+Nairobi,Berlin,1,1
+Nairobi,Oslo,1,1
+Nairobi,Denver,1,1
+Nairobi,Moskau,1,1
+Rio,Tokio,2,1
+Rio,Denver,2,1
